@@ -1,4 +1,21 @@
 {
-  "version": "",
-  "patches": []
+  "version": "1.0.0",
+  "patches": [
+    {
+      "name": "Increase Max Rounds",
+      "description": "Changes the max value of the rounds SeekBar from 108 to 216.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": null,
+      "options": []
+    },
+    {
+      "name": "Unlock Premium",
+      "description": "Forces the premium check to always return true.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": null,
+      "options": []
+    }
+  ]
 }
